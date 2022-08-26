@@ -33,19 +33,20 @@ h2{
     font-family: var(--fonte3);
     font-variant: small-caps;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     padding-top: 20px;
 }
 
 p{
     text-align: center;
     font-family: var(--fonte2);
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-weight: bolder;
+    padding-bottom: 10px;
 }
 
 section{
-    min-height: 65vh;
+    min-height: 73vh;
 
     position: relative;
 
@@ -53,7 +54,10 @@ section{
 
 div{
     position: absolute;
-
+    background-color: rgba(255, 255, 255, 0.637);
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+    width: 65%;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50% );
@@ -62,17 +66,30 @@ div{
 div.divimg{
     height: 250px;
     width: 500px;
-    background-color: rgba(211, 211, 211, 0.247);
+    background-color: rgba(255, 255, 255, 0.247);
     border-radius: 10px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.267);
 
 }
 
 section.imagem{
     background-color: white;
+    background-position: center center;
     background-size: cover;
     color: rgb(0, 0, 0);
+    box-shadow: inset 6px 6px 9px rgba(0, 0, 0, 0.315);
+    background-attachment: fixed;
 }
 
+section.normal{
+    background-color: rgb(206, 193, 193);
+    font-weight: lighter;
+}
+
+div  > p {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.253) ;
+
+}
 
 section#img01{
     background-image: url(imagens/sala.webp);
@@ -80,6 +97,7 @@ section#img01{
 
 section#img02{
     background-image: url(imagens/ensinoinfantil1.jpg);
+    background-position: left top;
 
 }
 
