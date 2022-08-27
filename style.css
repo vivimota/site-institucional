@@ -57,7 +57,7 @@ div{
     background-color: rgba(255, 255, 255, 0.637);
     border-radius: 6px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
-    width: 65%;
+    width: 65vw;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50% );
@@ -65,7 +65,7 @@ div{
 
 div.divimg{
     height: 250px;
-    width: 500px;
+    width: 65vw;
     background-color: rgba(255, 255, 255, 0.247);
     border-radius: 10px;
     box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.267);
@@ -74,7 +74,7 @@ div.divimg{
 
 section.imagem{
     background-color: white;
-    background-position: center center;
+    background-position: top center;
     background-size: cover;
     color: rgb(0, 0, 0);
     box-shadow: inset 6px 6px 9px rgba(0, 0, 0, 0.315);
